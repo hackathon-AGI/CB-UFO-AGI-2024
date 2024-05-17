@@ -1,0 +1,19 @@
+[project]
+name = "CB-UFO-AGI-2024"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Denis G", email = "denisgrigoriev04@yandex.ru"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "CC-BY-NC-SA-4.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
